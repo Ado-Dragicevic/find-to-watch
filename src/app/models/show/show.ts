@@ -4,5 +4,7 @@ export type ShowRelatedType =
   'recommendations' |
   'similar' |
   'cast' |
-  'biography-movie' |
-  'biography-tv';
+  'biography-movie-cast' |
+  'biography-tv-cast' |
+  'biography-movie-crew' |
+  'biography-tv-crew';

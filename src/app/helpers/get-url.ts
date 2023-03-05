@@ -44,7 +44,6 @@ export class GetUrl {
   }
 
   protected getBiographyUrl(type: MediaType, id: string): string {
-    //return `${url}/person/${id}/${type}_credits?api_key=${key}&language=en-US`;
     return `${url}/person/${id}/${type}_credits?api_key=${key}&language=en-US`;
   }
 

@@ -1,4 +1,4 @@
-import { Cast } from "../credits/credits";
+import { Cast, Crew } from "../credits/credits";
 import { Mixed } from "../index/results";
 import { ShowDetails, ShowPage } from "../shared/results";
 
@@ -9,5 +9,5 @@ export interface ShowResults {
 
 export interface ShowRelatedResults {
   listType: string;
-  data: Cast[] | Mixed[];
+  data: Cast[] | Crew[] | Mixed[];
 }
